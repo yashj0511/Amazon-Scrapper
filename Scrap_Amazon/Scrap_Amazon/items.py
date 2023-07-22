@@ -11,6 +11,7 @@ class ScrapAmazonItem(scrapy.Item):
     pname = scrapy.Field()
     reviews_num=scrapy.Field()
     image_url=scrapy.Field()
+    price=scrapy.Field()
     
     pass
 
